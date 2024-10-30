@@ -1,0 +1,36 @@
+main {
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    animation: fadeIn 0.7s;
+}
+
+.shop-item {
+    padding: 1.4rem 1.5rem;
+}
+
+.shop-item>img {
+    width: 17rem;
+    border-radius: 10px;
+}
+
+.shop-item-text {
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-item-text>span {
+    color: rgba(55, 104, 97, 0.956);
+    font-size: 1.1rem;
+}
+
+/* .shop-item>p {
+    text-align: center;
+    margin-top: 1rem;
+    color: rgba(55, 104, 97, 0.956);
+    font-size: 1.2rem;
+} */

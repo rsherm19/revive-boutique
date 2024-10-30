@@ -15,11 +15,13 @@ body {
 
 h1 {
     text-align: center;
+    margin: 2rem 0;
+    color: rgb(252, 249, 231)
 }
 
 nav {
     margin: 0 auto;
-    padding: 1.7rem;
+    padding: 1.5rem;
     background-color: rgba(76, 143, 136, 0.097);
 }
 
@@ -40,7 +42,7 @@ nav {
 
 .nav-flex>*:hover {
     transform: scale(1.05);
-    color: rgba(251, 246, 216, 0.8);
+    color: rgba(252, 249, 231, 0.959);
 }
 
 @keyframes fadeIn {

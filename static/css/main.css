@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Raleway, sans-serif;
 }
 
 body {
@@ -14,23 +15,32 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(255, 0, 255);
 }
 
 nav {
-    width: 60vw;
     margin: 0 auto;
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-around;
+    padding: 1.7rem;
+    background-color: rgba(76, 143, 136, 0.097);
 }
 
-nav>* {
+.nav-flex {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+}
+
+.nav-flex>* {
     text-decoration: none;
-    color: rgba(57, 107, 102, 0.695);
-    font-family: Raleway, sans-serif;
-    font-weight: 600;
-    font-size: 1.3rem;
+    color: rgb(64, 122, 113);
+    /* font-weight: 600; */
+    font-size: 1.25rem;
+    transition: 0.3s;
+}
+
+.nav-flex>*:hover {
+    transform: scale(1.05);
+    color: rgba(251, 246, 216, 0.8);
 }
 
 @keyframes fadeIn {
@@ -44,8 +54,19 @@ nav>* {
 }
 
 #logo {
-    width: 40vw;
-    display: block;
-    margin: 0 auto;
+    width: 30vw;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 2rem;
+    left: 1.5rem;
+    right: 0;
     animation: fadeIn 5s;
+    transition: 3s;
+}
+
+#logo:hover {
+    transform: scale(1.03);
+    cursor: pointer;
 }

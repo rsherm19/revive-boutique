@@ -7,5 +7,9 @@ app.get('/', (req, res) => {
     res.render('index.ejs');
 });
 
+app.get('/shop', (req, res) => {
+    res.render('shop.ejs');
+});
+
 
 app.listen(3000);

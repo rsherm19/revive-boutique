@@ -35,7 +35,7 @@ nav {
 .nav-flex>* {
     text-decoration: none;
     color: rgb(64, 122, 113);
-    /* font-weight: 600; */
+    font-weight: 600;
     font-size: 1.25rem;
     transition: 0.3s;
 }
@@ -71,4 +71,11 @@ nav {
 #logo:hover {
     transform: scale(1.03);
     cursor: pointer;
+}
+
+#shopping-cart>img {
+    position: absolute;
+    right: 3rem;
+    top: 1.3rem;
+    width: 2rem;
 }

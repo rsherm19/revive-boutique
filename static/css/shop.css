@@ -8,6 +8,7 @@ main {
 
 .shop-item {
     padding: 1.4rem 1.5rem;
+    text-decoration: none;
 }
 
 .shop-item>img {
@@ -26,6 +27,7 @@ main {
 .shop-item-text>span {
     color: rgba(55, 104, 97, 0.956);
     font-size: 1.1rem;
+    font-weight: 550;
 }
 
 /* .shop-item>p {

@@ -11,5 +11,9 @@ app.get('/shop', (req, res) => {
     res.render('shop.ejs');
 });
 
+app.get('/about', (req, res) => {
+    res.render('about.ejs');
+});
+
 
 app.listen(3000);

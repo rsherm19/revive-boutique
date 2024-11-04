@@ -1,13 +1,19 @@
 main {
-    padding: 0 6rem;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 0.7s;
+    padding-bottom: 7rem;
+}
+
+.flex-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    animation: fadeIn 0.7s;
+    width: 50%;
 }
 
 .shop-item {
-    padding: 1.4rem 1.5rem;
+    padding: 1.4rem 1rem;
     text-decoration: none;
 }
 

@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+// const bootstrap = require('bootstrap') 
 
 app.use(express.static(__dirname + '/static'));
 
@@ -13,6 +14,10 @@ app.get('/shop', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about.ejs');
+});
+
+app.get('/workshops', (req, res) => {
+   res.render('workshops.ejs'); 
 });
 
 

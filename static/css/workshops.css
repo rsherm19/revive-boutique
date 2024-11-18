@@ -2,8 +2,22 @@ li::marker {
     color: transparent;
 }
 
+.d-block {
+    /* width: 100px; */
+    height: 30rem;
+    object-fit: cover;
+  }
+
+.carousel {
+    margin-bottom: 5rem;
+}
+
 .carousel-control-next, .carousel-control-prev {
     transform: scale(0.8);
+}
+
+.carousel-inner {
+    margin: auto;
 }
 
 #carouselExampleIndicators {

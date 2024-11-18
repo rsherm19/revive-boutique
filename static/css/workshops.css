@@ -1,0 +1,11 @@
+li::marker {
+    color: transparent;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    transform: scale(0.8);
+}
+
+#carouselExampleIndicators {
+    margin: auto;
+}

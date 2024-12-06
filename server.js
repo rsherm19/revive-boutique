@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 // const bootstrap = require('bootstrap') 
 
+const port = process.env.PORT ? process.env.PORT : '3000';
 app.use(express.static(__dirname + '/static'));
 
 app.get('/', (req, res) => {
@@ -21,4 +22,4 @@ app.get('/workshops', (req, res) => {
 });
 
 
-app.listen(3000);
+app.listen(port);

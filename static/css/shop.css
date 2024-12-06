@@ -5,6 +5,12 @@ main {
     padding-bottom: 7rem;
 }
 
+p {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(187, 0, 0);
+}
+
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -15,6 +21,8 @@ main {
 .shop-item {
     padding: 1.4rem 1rem;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .shop-item>img {

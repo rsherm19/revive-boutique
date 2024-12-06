@@ -21,7 +21,7 @@ h1 {
 
 nav {
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1.2rem;
     background-color: rgba(76, 143, 136, 0.097);
 }
 
@@ -34,15 +34,19 @@ nav {
 
 .nav-flex>* {
     text-decoration: none;
-    color: rgb(64, 122, 113);
+    color: rgb(64, 122, 50);
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     transition: 0.3s;
 }
 
 .nav-flex>*:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     color: rgba(252, 249, 231, 0.959);
+}
+
+.toggle {
+    display: none;
 }
 
 @keyframes fadeIn {
@@ -76,6 +80,16 @@ nav {
 #shopping-cart>img {
     position: absolute;
     right: 3rem;
-    top: 1.3rem;
+    top: 1rem;
     width: 2rem;
+}
+
+#empty-cart-popup {
+    position: absolute;
+    right: 0.5rem;
+    top: 3.4rem;
+    background-color: rgba(33, 173, 47, 0.425);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgba(33, 173, 47, 0.425);
 }

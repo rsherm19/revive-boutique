@@ -5,6 +5,7 @@ img {
 }
 
 .about-flex-container {
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,9 +13,21 @@ img {
 }
 
 .about-profile-flex-container {
+    width: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: 15rem;
+}
+
+.italics {
+    font-style: italic;
+    line-height: 2rem;
+}
+
+.about-description {
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.6rem;
 }
